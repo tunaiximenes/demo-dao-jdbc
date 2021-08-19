@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fbf9b07-7224-4d63-931f-e702e516e930" name="Changes" comment="Criando a Classe Seller">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/SellerDao.java" afterDir="false" />
+    <list default="true" id="7fbf9b07-7224-4d63-931f-e702e516e930" name="Changes" comment="departament and Seller interfaces">
+      <change afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/demo-dao-jdbc/application/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-dao-jdbc/application/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629232742675</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="departament and Seller interfaces">
+      <created>1629311611419</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629311611419</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +139,9 @@
     <MESSAGE value="Criando a Classe Department" />
     <MESSAGE value="Criando o Department" />
     <MESSAGE value="Criando a Classe Seller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando a Classe Seller" />
+    <MESSAGE value="melhorando a Classe Department" />
+    <MESSAGE value="Departament and Seller interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Departament and Seller interfaces" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
