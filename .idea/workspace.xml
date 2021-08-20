@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fbf9b07-7224-4d63-931f-e702e516e930" name="Changes" comment="departament and Seller interfaces">
-      <change afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+    <list default="true" id="7fbf9b07-7224-4d63-931f-e702e516e930" name="Changes" comment="SellerDaoJDBC and DaoFactory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dao-jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dao-jdbc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/demo-dao-jdbc/application/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-dao-jdbc/application/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo-dao-jdbc/model/entities/Seller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-dao-jdbc/model/entities/Seller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/entities/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/entities/Seller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +48,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../java-libs/jdbc-connectors/postgresql-42.2.23.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -107,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629311611419</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SellerDaoJDBC and DaoFactory">
+      <created>1629405245594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629405245594</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +154,8 @@
     <MESSAGE value="Criando a Classe Seller" />
     <MESSAGE value="melhorando a Classe Department" />
     <MESSAGE value="Departament and Seller interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Departament and Seller interfaces" />
+    <MESSAGE value="SellerDaoJDBC and DaoFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="SellerDaoJDBC and DaoFactory" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
