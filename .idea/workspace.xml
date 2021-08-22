@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fbf9b07-7224-4d63-931f-e702e516e930" name="Changes" comment="Update Implementation">
+    <list default="true" id="7fbf9b07-7224-4d63-931f-e702e516e930" name="Changes" comment="Delete Implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629606180932</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Delete Implementation">
+      <created>1629606631713</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1629606631713</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +210,8 @@
     <MESSAGE value="FindAll implementation" />
     <MESSAGE value="Insert Implementation" />
     <MESSAGE value="Update Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Implementation" />
+    <MESSAGE value="Delete Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete Implementation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
