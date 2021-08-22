@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fbf9b07-7224-4d63-931f-e702e516e930" name="Changes" comment="Delete Implementation">
+      <change afterPath="$PROJECT_DIR$/src/application/Program2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <recent name="C:\Users\tunai\OneDrive\Java\Exercicios\Nelio Alves\demo-dao-jdbc" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Program2">
     <configuration name="Program" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="application.Program" />
       <module name="demo-dao-jdbc" />
@@ -62,6 +64,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Program2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="application.Program2" />
+      <module name="demo-dao-jdbc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Program" />
+      <item itemvalue="Application.Program2" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -170,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629606631713</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Delete Implementation">
+      <created>1629606965106</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1629606965106</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
