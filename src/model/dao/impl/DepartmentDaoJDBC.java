@@ -7,7 +7,6 @@ import model.entities.Department;
 
 import java.sql.*;
 import java.util.List;
-import java.util.Objects;
 
 public class DepartmentDaoJDBC implements  DepartmentDao{
 
@@ -15,27 +14,6 @@ public class DepartmentDaoJDBC implements  DepartmentDao{
 
     public DepartmentDaoJDBC(Connection conn) {
         this.conn = conn;
-    }
-
-    public Connection getConn() {
-        return conn;
-    }
-
-    public void setConn(Connection conn) {
-        this.conn = conn;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        DepartmentDaoJDBC that = (DepartmentDaoJDBC) o;
-        return Objects.equals(conn, that.conn);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(conn);
     }
 
     @Override
@@ -72,6 +50,26 @@ public class DepartmentDaoJDBC implements  DepartmentDao{
 
     @Override
     public void update(Department obj) {
+        PreparedStatement st = null;
+            try {
+                st = conn.prepareStatement(
+                        "UPDATE Department "
+                                + "(Name) "
+                                + "SET Name = ? "
+                                + "WHERE Id = ?");
+
+                st.setString(1, obj.getName());
+
+                st.executeUpdate();
+
+
+            }
+            catch (SQLException e) {
+                throw new DbException(e.getMessage());
+            }
+            finally {
+                DB.closeStatement(st);
+            }
 
     }
 
@@ -82,7 +80,30 @@ public class DepartmentDaoJDBC implements  DepartmentDao{
 
     @Override
     public Department findById(Integer id) {
-        return null;
+        PreparedStatement st = null;
+        ResultSet rs = null;
+        try {
+            st = conn.prepareStatement(
+                    "SELECT * FROM department WHERE Id = ?");
+
+            st.setInt(1, id);
+            rs = st.executeQuery();
+            if (rs.next()) {
+                Department obj = new Department();
+                obj.setId(rs.getInt("id"));
+                obj.setName(rs.getString("name"));
+                return obj;
+            }
+            return null;
+
+        }
+        catch (SQLException e) {
+            throw new DbException(e.getMessage());
+        }
+        finally {
+            DB.closeStatement(st);
+            DB.closeResultSet(rs);
+        }
     }
 
     @Override
