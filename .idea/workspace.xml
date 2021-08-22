@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7fbf9b07-7224-4d63-931f-e702e516e930" name="Changes" comment="Department findById">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo-dao-jdbc/application/Program2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-dao-jdbc/application/Program2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo-dao-jdbc/model/dao/impl/DepartmentDaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-dao-jdbc/model/dao/impl/DepartmentDaoJDBC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/DepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DepartmentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -255,15 +252,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Department findById" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/application/Program2.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="obj" />
