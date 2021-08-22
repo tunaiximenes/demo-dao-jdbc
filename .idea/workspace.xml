@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fbf9b07-7224-4d63-931f-e702e516e930" name="Changes" comment="FindByDepartment Implementation">
+    <list default="true" id="7fbf9b07-7224-4d63-931f-e702e516e930" name="Changes" comment="FindAll implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/demo-dao-jdbc/application/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-dao-jdbc/application/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo-dao-jdbc/model/dao/SellerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-dao-jdbc/model/dao/SellerDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/demo-dao-jdbc/model/dao/impl/SellerDaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-dao-jdbc/model/dao/impl/SellerDaoJDBC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629603817200</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="FindAll implementation">
+      <created>1629604349128</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629604349128</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +189,8 @@
     <MESSAGE value="SellerDaoJDBC and DaoFactory" />
     <MESSAGE value="Reusing Instantiation" />
     <MESSAGE value="FindByDepartment Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="FindByDepartment Implementation" />
+    <MESSAGE value="FindAll implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="FindAll implementation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
